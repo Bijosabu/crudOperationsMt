@@ -14,3 +14,11 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+<!-- Project details 
+Application to get user data from api
+Clean architecture using DDD 
+State management done using - bloc 
+Edit functionality 
+Delete functionality
+View details functionality
+Pagination feature etc all are implemented -->
