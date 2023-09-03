@@ -58,11 +58,10 @@ class UserListBloc extends Bloc<UserListEvent, UserListState> {
     });
     on<_DeleteUser>((event, emit) async {
       final userId = event.userId;
-      // Assuming you have a method to delete the user from the server
+
       final result = await _userListRepo.deleteUser(userId);
 
       if (result) {
-        // Remove the deleted user from the state's userListModel
         final updatedUserListModel =
             state.userListModel.where((user) => user.id != userId).toList();
 
